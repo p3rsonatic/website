@@ -1,0 +1,116 @@
+body {
+    background-color: #d6f4ff;
+}
+
+.post {
+    display: grid;
+    max-width: 1000px;
+    margin: auto auto;
+    grid-gap: 5px 5px;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.post>* {
+    grid-column: 1 / -1;
+}
+
+a:link, a:visited {
+    color: #4dbf85;
+    text-decoration: underline;
+    cursor: auto;
+  }
+  
+  a:hover {
+    color: #008953;
+  }
+
+/* date, tag, share */
+.info p{
+    text-align: left;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+/* used for images */
+figure {
+    margin: 0;
+    
+}
+
+img {
+    width: 100%;
+    margin: 0;
+    height: auto;
+}
+/* caption to the image */
+figcaption {
+    font-size: 15px;
+}
+/* quotes */
+blockquote {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+/* text */
+main p {
+    font-size: 20px;
+}
+
+main h2 {
+    font-size: 30px;
+}
+
+main h3 {
+    font-size: 25px;
+}
+
+/* personatic blog, logo*/
+header {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+/* posts memes categories*/
+nav {
+    font-family: monospace;
+}
+/* warnings and announcements */
+.announcement {
+    background-color: #7aae29;
+    opacity: 100%;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+}
+/* related posts */
+aside p, li{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+aside h2 {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+/* made by, social media links, year*/
+footer {
+    font-family: sans-serif;
+    text-align: center;
+}
+/* links to sources */
+.source a{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.source h2 {
+    font-family: monospace;
+    font-size: 25px;
+}
